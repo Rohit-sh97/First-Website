@@ -1,0 +1,349 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.mainhead{
+    background-color: rgb(60, 60, 60);
+    padding: 20px;
+}
+.header1{
+    font-size: 45px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: white;
+}
+.header2{
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: white;
+}
+.conandabout{
+   display: flex;
+   position: relative;
+   top: 40px;
+   left: 80px;
+   height: auto;
+   width: auto;
+   margin: 10px;
+}
+.con{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.about{
+    position: absolute;
+    top: 2px;
+    left: 600px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#yel{
+    display: block;
+    height: 3px;
+    width: 250px;
+    background-color: yellow;
+    border-style: none;
+    border-radius: 20px;
+    position: relative;
+    top:20px;
+    margin-left: 90px;
+    margin-top: 25px;    
+}
+#yell{
+    display: block;
+    height: 3px;
+    width: 250px;
+    background-color: yellow;
+    border-style: none;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 690px;
+    margin-top: 13px;    
+}
+.icons_and_info{
+    display: inline-block;
+    position: relative;
+    height: 250px;
+    width: 350px;
+    top:20px;
+    left: 85px;
+}
+.E_M{
+    display: inline-flex;
+}
+.message_icon{
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+}
+.Email{
+    position: relative;
+    left: 16px;
+    top: 5px;
+    font-weight: bold;
+}
+.P-No{
+    display: inline-flex;
+}
+.phone_icon{
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+}
+.Phone_no{
+    display: inline;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+    bottom: 3px;
+}
+.Adress{
+display: inline-flex;
+}
+.Location_icon{
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+}
+.Location{
+    display: inline;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+    left: 13px;
+}
+.aboutlines{
+    display: inline;
+    position: relative;
+    left: 600px;
+    bottom: 121px;
+    font-family: math;
+}
+.all_section{
+    position: relative;
+    top:-80px;
+}
+.Hard_Project{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.Hard{
+    display: inline;
+    position: relative;
+    left: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Project{
+    display: inline;
+    position: relative;
+    left: 550px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.lines12{
+    display: inline-flex;
+    height: auto;
+    width: auto;
+    position: relative;
+    bottom: 10px;
+}
+#line11{
+    height: 3px;
+    width: 250px;
+    background-color: yellow;
+    border-style: none;
+    border-radius: 20px;
+    position: relative;
+    left: 85px;
+}
+#line22{
+    height: 3px;
+    width: 250px;
+    background-color: yellow;
+    border-style: none;
+    border-radius: 20px;
+    position: relative;
+    left: 430px;
+}
+.skills_list{
+   position: relative;
+   left: 60px;
+   top: -10px;
+   font-weight: bold;
+  
+}
+h3{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    padding: 1px;
+}
+.proj_att{
+    display: inline-block;
+    position: relative;
+    left: 675px;
+    bottom:135px;
+}
+.Project_description{
+    position: relative;
+    right: 25px;
+}
+#MY_RE{
+    position: relative;
+    left: 25px;
+}
+.Lang_skills{
+    display: inline;
+    position: relative;
+    height: 50px;
+    width: auto;
+    top:-100px;
+}
+.Sofy_laung_div{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: auto;
+}
+.soft_skill{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 85px;
+    position: absolute;
+}
+.launguage{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline;
+    margin-left: 680px;
+}
+.both_line{
+    display: inline-flex;
+    height: auto;
+    width: auto;
+    position: relative;
+    bottom: 10px;
+}
+.soft_line{
+    height: 3px;
+    width: 250px;
+    background-color: yellow;
+    border-style: none;
+    border-radius: 20px;
+    position: relative;
+    left: 85px;
+}
+.laung_line{
+    height: 3px;
+    width: 250px;
+    background-color: yellow;
+    border-style: none;
+    border-radius: 20px;
+    position: relative;
+    left: 430px;
+}
+.soft_list{
+    margin: 0;
+    padding: 4px;
+    position: relative;
+    font-weight: bold;
+    top: -10px;
+    left: 60px;
+}
+.launguage_list{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    top:-150px;
+    left: 650px;
+    font-weight: bold;
+}
+.Education_Hobby{
+position: relative;
+top: -170px;
+}
+.Ed_hob_felx{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Education_head{
+    position: relative;
+    left: 85px;
+}
+.hobby_head{
+    position: relative;
+    left: 350px;
+}
+.ED_HOB_LINE{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.Edu_Line{
+    height: 3px;
+    width: 450px;
+    background-color: yellow;
+    border-style: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 80px;
+}
+.Hob_line{
+    height: 3px;
+    width: 300px;
+    background-color: yellow;
+    border-style: none;
+    border-radius: 20px;
+    position: absolute;
+   Left:680px;
+}
+.ed1_ho2{
+    display: flex;
+}
+.edu_list{
+    display: inline-block;
+    height: auto;
+    max-width: 500px;
+    position: relative;
+    left: 60px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.hobyy_list{
+    display: block;
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 650px;
+    margin-top: 16px;
+}
+.hobyy_list li{
+    font-weight: bold;
+    padding: 3px;
+}
+.edu_list li{
+    padding: 5px;
+}
+footer{
+    background-color: gray;
+    width: auto;
+    height: 100px;
+    color: gray;
+}
